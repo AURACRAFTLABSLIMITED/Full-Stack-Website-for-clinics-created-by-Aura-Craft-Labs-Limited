@@ -111,7 +111,7 @@ export default function AppointmentForm({ preselectedTreatment = '' }) {
       // Locally you can still override with VITE_API_BASE_URL=http://localhost:5000
       const API_BASE = import.meta.env.VITE_API_BASE_URL || '';
 
-      const response = await axios.post(`/api/appointments`, formData, {
+      const response = await axios.post(`${API_BASE}/api/appointments`, formData, {
   headers: {
     'Content-Type': 'application/json'
   }

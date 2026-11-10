@@ -57,6 +57,13 @@ app.use(cors({
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+// Make sure MongoDB is connected before any API request is handled
+// (needed on Vercel serverless, where the connection may not be ready yet)
+app.use(async (req, res, next) => {
+  await connectDB();
+  next();
+});
+
 // API Health Check
 app.get('/api/health', (req, res) => {
   res.status(200).json({
