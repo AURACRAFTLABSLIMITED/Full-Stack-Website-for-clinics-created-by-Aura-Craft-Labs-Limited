@@ -12,7 +12,7 @@ export default function ClinicIntro() {
           <div className="lg:col-span-5 order-2 lg:order-1">
             <div className="relative rounded-2xl overflow-hidden shadow-lg border border-slate-200 aspect-4/3 sm:aspect-16/11 lg:aspect-4/5 bg-slate-100">
               <img
-                src="/src/assets/images/hero_clinic_consultation_1794214515994.webp"
+                src="/images/hero_clinic_consultation_1794214515994.webp"
                 alt="Dr. Ayesha Malik providing aesthetic consultation in modern DHA Lahore suite"
                 className="w-full h-full object-cover"
                 loading="lazy"

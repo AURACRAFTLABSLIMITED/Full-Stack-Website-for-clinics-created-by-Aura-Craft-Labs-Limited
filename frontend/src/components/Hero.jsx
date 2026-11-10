@@ -94,7 +94,7 @@ export default function Hero() {
               {/* Main Clinical Image */}
               <div className="relative rounded-xl overflow-hidden bg-slate-100 shadow-xl border border-slate-200/80 aspect-4/3 sm:aspect-16/11 lg:aspect-4/3">
                 <img
-                  src="/src/assets/images/hero_clinic_consultation_1794214515994.webp"
+                  src="/images/hero_clinic_consultation_1794214515994.webp"
                   alt="Aesthetic consultation between board-certified physician and patient at Aura Medical Clinic in DHA Lahore"
                   className="w-full h-full object-cover object-center"
                   loading="eager"
