@@ -107,8 +107,9 @@ export default function AppointmentForm({ preselectedTreatment = '' }) {
     setApiError('');
 
     try {
-      // Base URL comes from VITE_API_BASE_URL (see .env)
-      const API_BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000';
+      // In production (Vercel) we use relative path /api so the rewrite sends it to the backend service.
+      // Locally you can still override with VITE_API_BASE_URL=http://localhost:5000
+      const API_BASE = import.meta.env.VITE_API_BASE_URL || '';
 
       const response = await axios.post(`${API_BASE}/api/appointments`, formData, {
         headers: {
