@@ -48,7 +48,7 @@ export const clinicInfo = {
     qualifications: "MBBS (KEMU), FCPS (Plastic Surgery), Fellow Aesthetic Surgery (ISAPS)",
     registration: "PMDC Specialist Reg. #48921-P",
     experienceYears: "14+ Years",
-    image: "/src/assets/images/doctor_specialist_portrait_1794214516530.jpg",
+    image: "/images/doctor_specialist_portrait_1794214516530.webp",
     bio: "With over 14 years of surgical and clinical excellence, Dr. Ayesha Tariq Malik leads Aura Clinic with a patient-first ethos centered on anatomic precision, natural balance, and subtle aesthetic restoration. Having trained in renowned medical centers and completed international fellowships in advanced facial harmony and non-invasive rejuvenation, Dr. Malik designs bespoke treatment plans aligned with your unique personal objectives in a discreet, welcoming DHA Lahore setting.",
     specialties: [
       "Precision Facial Harmony & Structural Contouring",
