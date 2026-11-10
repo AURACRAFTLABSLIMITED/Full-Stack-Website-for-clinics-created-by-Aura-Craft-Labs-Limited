@@ -9,8 +9,7 @@
       "root": "frontend",
       "framework": "vite",
       "installCommand": "npm install --include=dev",
-      "buildCommand":"node ./node_modules/vite/bin/vite.js build"
-
+      "buildCommand": "node ./node_modules/vite/bin/vite.js build"
     }
   },
   "rewrites": [
